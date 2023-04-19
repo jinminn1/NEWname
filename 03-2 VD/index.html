@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vd</title>
+    <style>
+        
+        
+        * {margin: 0;padding: 0;}
+        a {text-decoration: none;color: #333;}
+        li {list-style: none;}
+
+        
+        /*layout*/
+        .wrap {width: 990px;height: 900px;border: 1px solid;margin: 0 auto;}
+        .header {width: 785px;height: 93px;margin: 0 auto 9px;}  
+        .visual {width: 990px;height: 392px; margin: 0 auto;background-color: antiquewhite;}
+        .section{width: 785px;height: 230px;margin: 32px auto 55px;}
+        .footer{width: 990px;height: 90px;margin:0;background-color: black;}
+
+        /*header*/
+        .header h1{width: 200px;height: 60px;background-color: rgb(7, 7, 7);float: left;}
+        .header .topmenu {width: 250px;height: 45px; float: right; background-color:#ddd;font-size: 0;text-align: right;}
+        .header .topmenu a { font-size: 13px; height: 45px;display: inline-block;line-height: 45px;vertical-align: top;padding:0 10px ;}
+        .header .topmenu a img {float: left;margin-top: 21px;margin-right: 6px;}
+
+
+
+
+
+          
+
+        .header .gnb {width: 785px;height: 28px;float: left;;background-color: rgb(126, 126, 126);text-align: center; font-size: 0;line-height: 28px;}
+        .header .gnb li {display: inline-block;font-size: 15px; }
+        .header .gnb li a {color: #fff;padding: 0 30px; display: block;}
+        .header .gnb li:hover {background-color: black;}
+        .header .gnb li:hover a{color: yellow;}
+
+        .section .banner_box{width: 510px;height: 166px;float: left;}
+        .section .banner_box li{float: left;width: 114px;height: 161px;margin-right: 15px;}
+        .section .banner_box li.big{width: 251px;height: 164px;margin-right: 0;}
+        .section .banner_box li > img{border: 1px solid white ;}
+        .section .banner_box li h3 {font-size: 13px;}
+        .section .banner_box li h3.vd1 span{color: #3eacd8;}
+        .section .banner_box li h3.vd2 span{color: #dd2c49}
+
+        .section .banner_box li p {font-size: 13px;color: #555;margin-bottom: 10px;}
+        .section .banner_box li a {font-size: 11px;border: 1px solid #ddd;padding: 2px 4px;display: inline-block;}
+        .section .banner_box li a img{float: right;margin-top: 5px;margin-left: 4px;} 
+        
+        .section .pop_box{width: 247px;height: 156px;float: right;}
+        .section .pop_box h2{width: 248px;height: 29px; border-bottom: 1px solid #eee; font-size: 18px;color: #444; line-height: 29px;}
+        .section .pop_box h2 img {float: left; margin: 13px 6px 0 6px;}
+        .section .pop_box h2 span{color: orange;}
+        .section .pop_box li {width: 248px; height: 29px; border: #eee 1px solid;font-size: 13px;text-indent: 22px;display: inline-block;text-align: center;line-height: 28px;}
+        .section .pop_box li:hover{background: #777;}
+        .section .pop_box li:hover a{color: #fff;}
+        
+        .section .notice_box{width: 785px;height: 32px;float: left;margin-top: 32px; background-color: rgb(170, 170, 171);}
+        .section .notice_box h2 {width: 107px;height: 32px;line-height:.32px ; border-right: 1px solid #ccc;font-size: 16px;text-align: center;float: left;}
+        .section .notice_box h2 img {margin: 2px;margin-top: 11px;}
+        .section .notice_box ul {float: left;}
+        .section .notice_box ul li {width: 600px;height: 32px;line-height: 32px;font-size: 15px;margin: 0 30px;}
+        .section .notice_box li:hover {text-decoration: underline;}
+        .section .notice_box a.btn_more {float: right;}
+    
+        .footer h1 {width: 120px;height: 50px;background-color: #333; float: left;margin: 0 0 170px;margin: 20px ;}
+        .footer > div {width: 500px;height: 60px;float: left;margin: 15px 0 0 20px;border: 1px solid white;color: #777; font-size: 13px;text-align: right;word-break: keep-all;}
+    </style>
+
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <h1><a href="#"><img src="images/logo.jpg" alt=""></a></h1>
+
+            <div class="topmenu">
+               <a href="#"><img src="새 폴더/Untitled-2.jpg" alt="">LOGIN</a>
+               <a href="#"><img src="새 폴더/Untitled-2.jpg" alt="">JOIN</a>
+                <a href="#"><img src="새 폴더/Untitled-2.jpg" alt="">SITEMAP</a>
+            </div>
+            <div class="gnb">
+                <ul>
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">사업영역</a></li>
+                    <li><a href="#">진행중인사업</a></li>
+                    <li><a href="#">제휴문의</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>        
+            </div>
+        </div>
+        <div class="visual"></div>
+
+
+        <div class="section">
+            <div class="banner_box">
+                <ul>
+                    <li>
+                        <img src="images/banner-01.jpg" alt="">
+                        <h3 class="vd1"> <span>VD</span> story</h3>  
+                        <p>VD의 성장배경을 알 수 있습니다.</p>  
+                        <a href="#">자세히보기 <img src="images/bul-arrow1.png" alt=""></a>
+                    </li>
+                    <li>
+                        <img src="images/banner-02.jpg" alt="">
+                        <h3 class="vd2"><span>VD</span> business</h3>
+                        <p>VD의 사업내용을 알 수 있습니다.</p>
+                        <a href="#">자세히보기<img src="images/bul-arrow1.png" alt=""></a>
+                    </li>
+                    <li class="big"><img src="images/banner_03.jpg" alt=""></li>
+
+                </ul>
+            </div>    
+            <div class="pop_box">
+                <h2> <img src="images/icon.png" alt=""><span> 인기제품 </span> 순위 </h2>
+                <div>
+                    <ol>
+                        <li><a href="">- 1위 컴퓨터</a></li>
+                        <li><a href="">- 1위 노트북</a></li>
+                        <li><a href="">- 1위 이어폰</a></li>
+                        <li><a href="">- 1위 키보드</a></li>
+                    </ol>
+                </div>
+
+
+            </div>
+            <div class="notice_box">
+                <h2><img src="images/KakaoTalk_20221228_181822999.png" alt=""> NOTICE </h2>
+                  <ul>
+                    <li><a href="">[공지사항]어렵구만</a>   </li>
+                  </ul>
+                  <a href="#" class="btn_more">more</a>
+            </div>
+
+        </div>
+            <div class="footer">
+                <h1><img src="images/black logo.png" alt=""></h1>
+                <div>브이디 컴퍼니  /  대표 김선경  /  사업자등록번호 123-45-67890  /  통신판매업 신고, 제 2013-경기0203호
+                    경기도 용인시 기흥구 청덕동 휴먼시아 물푸레빌딩 204  /  고객센터 1588-0000 /  개인정보관리자. 강경모
+                <br>COPYRIGHT (C) 2014 브이디컴퍼니 CO.LTD. ALLRIGHT RESERVED.
+                </div>
+            </div>
+    </div>
+</body>
+</html>
